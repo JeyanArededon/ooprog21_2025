@@ -16,9 +16,8 @@ public class DebugThree1 {
       // fixed typo: inputnextInt() → input.nextDouble()
       calcTip(check1); 
       calcTip(check2); 
-      
+     
    }
-
    public static void calcTip(double bill) 
    // add parameter 'bill'
    {
