@@ -2,8 +2,10 @@ package Chapter_4;
   
 import java.util.Scanner;
 
-public class DebugFour4 {
-    public static void main(String[] args) {
+public class DebugFour4 
+{
+    public static void main(String[] args) 
+    {
         Scanner input = new Scanner(System.in);
         String destinationCity;
         String departureCity;
@@ -11,10 +13,8 @@ public class DebugFour4 {
 
         System.out.print("Enter destination city >> ");
         destinationCity = input.nextLine();
-
         System.out.print("Enter departure city >> ");
         departureCity = input.nextLine();
-
         System.out.print("Enter mode of transportation >> ");
         mode = input.nextLine();
 
@@ -24,14 +24,11 @@ public class DebugFour4 {
 
         System.out.println("\nTrip 1:");
         display(trip1);
-
         System.out.println("\nTrip 2:");
         display(trip2);
-
         System.out.println("\nTrip 3:");
         display(trip3);
     }
-
     public static void display(DebugTrip trip) {
         System.out.println("Going to " + trip.getDestination());
         System.out.println("Leaving from " + trip.getDepartureCity());

@@ -13,17 +13,14 @@ public class DebugCircle
         diameter = 2 * r;       
         area = PI * r * r;        
     }
-
     public int getRadius()
     {
         return radius;
     }
-
     public int getDiameter() 
     {
         return diameter;       
     }
-
     public double getArea() 
     {
         return area;
