@@ -23,6 +23,6 @@ public static void main(String[] a)
     {
             System.out.println("Neither of these numbers is");
             System.out.println(" evenly divisible into the other");
-        }
+     }
     }
 }
