@@ -22,6 +22,8 @@ public class DebugFour2
         display(pen1);
         System.out.println("User value pen:");
         display(pen2);
+
+        input.close();
     }
     public static void display(DebugPen p) 
     {

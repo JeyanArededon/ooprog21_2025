@@ -17,5 +17,7 @@ public class DebugFour1
         System.out.println("The radius is " + c.getRadius());
         System.out.println("The diameter is " + c.getDiameter());
         System.out.println("The area is " + c.getArea());
+
+        input.close();
     }
 }

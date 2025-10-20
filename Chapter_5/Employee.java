@@ -13,7 +13,6 @@ public class Employee
       this.employeeNumber = employeeNumber;
       this.payRate = payRate;
     }
-
     
   public double getPayRate() 
     {

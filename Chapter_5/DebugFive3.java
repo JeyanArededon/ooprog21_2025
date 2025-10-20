@@ -25,5 +25,7 @@ public class DebugFive3
      else
             output = "Valid - Item in Housewares Department";
         System.out.println(output);
+
+        input.close();
     }
 }

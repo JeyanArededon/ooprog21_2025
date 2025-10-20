@@ -27,6 +27,8 @@ public class DebugFour3
         box2.showData();
         System.out.print("The volume of the second box is: ");
         showVolume(box2);
+
+        input.close();
     }
 
     public static void showVolume(DebugBox aBox)

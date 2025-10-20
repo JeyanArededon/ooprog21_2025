@@ -28,5 +28,8 @@ public class DebugFive4
       else
             highest = four;
       System.out.println("The highest number is " + highest);
+
+      input.close();
+      
     }
 }

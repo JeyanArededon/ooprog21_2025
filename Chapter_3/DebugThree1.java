@@ -17,6 +17,7 @@ public class DebugThree1 {
       calcTip(check1); 
       calcTip(check2); 
      
+      input.close();
    }
    public static void calcTip(double bill) 
    // add parameter 'bill'
@@ -27,8 +28,7 @@ public class DebugThree1 {
       tip = bill * RATE;
        // change from bill / RATE to bill * RATE
       System.out.println("The tip should be at least $" + tip);
+     
    }
-
-
-    
+  
 }

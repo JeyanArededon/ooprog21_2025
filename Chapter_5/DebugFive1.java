@@ -26,5 +26,7 @@ public class DebugFive1
         if (usersChoice == 1)
             bill += LOW_PRICE;
         System.out.println("Total bill is $" + bill);
+        
+        kb.close();
     }
 }

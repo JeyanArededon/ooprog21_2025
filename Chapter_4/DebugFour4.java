@@ -28,6 +28,8 @@ public class DebugFour4
         display(trip2);
         System.out.println("\nTrip 3:");
         display(trip3);
+
+        input.close();
     }
     public static void display(DebugTrip trip) {
         System.out.println("Going to " + trip.getDestination());
