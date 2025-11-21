@@ -13,13 +13,11 @@ public class DebugSeven3
         System.out.print("Enter a character to search for >> ");
         charString = kb.nextLine();
         searchChar = charString.charAt(0);
-        System.out.println("indexOf('" + searchChar + "') is: " +
-            quote.indexOf(searchChar));
+        System.out.println("indexOf('" + searchChar + "') is: " + quote.indexOf(searchChar));
         System.out.println("indexOf('a') is: " + quote.indexOf('a'));
         System.out.println("indexOf('x') is: " + quote.indexOf('x'));
         System.out.println("charAt(5) is: " + quote.charAt(5));
-        System.out.println("replace('e', '*') is: " +
-            quote.replace('e', '*'));
+        System.out.println("replace('e', '*') is: " + quote.replace('e', '*'));
 
         kb.close();
     }
